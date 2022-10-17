@@ -1,0 +1,20 @@
+zad 13a 
+
+A)Dany jest trojkat prostokatny. Wczytac przeciwprostokatna C_trzypierwszeliterynazwskaicznia oraz .. 
+
+wykonac wypisac czytane dane 2 miejsca po przecinku z jednastka cm wielkosc 13 mm kolor fioletowy 
+
+
+B) Obliczyc przeciw prostokatna (2 miejsca po przecinku jednostka)
+
+C) Obwod  z jednostka
+
+D) Pole z jednostka 
+
+E) Wysokosci z j.
+
+F) Katy trojkata wyrazone w stopniach 
+
+G) wszystkie funkcje trygonometyczne 3 miesjca po przecinku 
+
+Uzyj modulu .Math
