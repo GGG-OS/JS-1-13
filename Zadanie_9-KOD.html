@@ -1,0 +1,43 @@
+<textarea rows="50" cols="250">
+<html>
+<body>
+<div style="color:green;font-size:57px;">
+<script language="JavaScript">
+
+  var liczba1=prompt("dzien1=","");
+  var liczba2=prompt("Godzina1=","");
+  var liczba3=prompt("dzien2=","");
+  var liczba4=prompt("Godzina2=","");
+  
+  var ile_sekund_tas;
+  var s;
+  
+  var D1_tas=parseFloat(liczba1);
+  var D2_tas=parseFloat(liczba3);
+  var G1_tas=parseFloat(liczba2);
+  var G2_tas=parseFloat(liczba4);
+  
+  s1=(D1_tas-D2_tas)*24*60*60;
+  ile_sekund_tas=s1-((24-G1_tas)*60*60)+((24-G2_tas)*60*60);
+
+
+  
+  
+document.write
+("dz1="+D1_tas+"<br>");
+
+document.write
+("G1="+G1_tas+"<br>");
+
+document.write
+("dz2="+D2_tas+"<br>");
+
+document.write
+("G2="+G2_tas+"<br>");
+
+
+</script>
+</div>
+</body>
+</html>
+</textarea>

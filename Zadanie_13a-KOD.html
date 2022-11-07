@@ -1,0 +1,33 @@
+﻿<textarea rows="50" cols="250">
+<html>
+<body>
+<div style="color:purple;font-size:50px;">
+<script language="JavaScript">
+var liczba1=prompt("c=","");
+var liczba2=prompt("b=","");
+
+var c_tas=parseFloat(liczba1);
+var b_tas=parseFloat(liczba2);
+
+var a_tas=Math.sqrt(Math.pow(c_tas,2)-Math.pow(b_tas,2));
+
+document.write("c="+c_tas.toFixed(2)+" cm"+"<br>");
+document.write("b="+b_tas.toFixed(2)+" cm"+"<br>");
+document.write("a="+a_tas.toFixed(2)+" cm"+"<br>");
+
+var h1=a_tas;
+var h2=b_tas;
+var h3=(a_tas*b_tas)/c_tas;
+
+document.write("h3="+h3.toFixed(2)+" cm"+"<br>");
+sin_alfa=b_tas/c_tas;
+document.write("sin(alfa)="+sin_alfa.toFixed(3)+"<br>");
+alfa=Math.asin(b_tas/c_tas)*(180/Math.PI);
+document.write("alfa="+alfa.toFixed(2)+"st"+"<br>");
+
+
+</script>
+</div>
+</body>
+</html>
+</textarea>
