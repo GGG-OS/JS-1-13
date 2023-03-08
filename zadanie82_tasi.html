@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<title> Zadanie 82</title>
+
+<script language="JavaScript">
+function pushbutton() {
+alert("Czesc !");}
+
+</script>
+</head>
+<body>
+<font color="red"><h1>Tasior</h1></font>
+
+<font color="green"><h3>
+
+dzis = new Date()-->Biezaca data i godzina <br>
+dzis = dzis.getHours()-->Zwraca Godziny<br>
+dzis = dzis.getMinutes-->()Zwraca Minuty<br>
+dzis = dzis.getMonth()+1-->Zwraca Miesiace<br>
+dzis = dzis.getDate()-->Zwraca Date<br>
+dzis = dzis.getFullYear()-->Zwraca Pelny Rok<br>
+</h3><br></font>
+
+
+Ostatnio zmodyfikowany
+<script language="LiveScript">
+document.write(document.lastModified,"<br>")
+</script>
+
+<form>
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+
+<script language="JavaScript">
+dzis = new Date()
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+document.write("<br>Aktualna data : ",dzis.getMonth()+1,",",dzis.getDate(),",",dzis.getFullYear());
+
+</script>
+</body>
+</html>
