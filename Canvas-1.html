@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///D:/Users/hirsz/Desktop/Arkusz%20na%20egzamin/Canvas-1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body>
+
+
+<canvas id="myCanvas" width="500" height="500" style="border:1px solid #d3d3d3;"></canvas>
+
+<script>
+
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+
+
+//glowna glowa
+ctx.beginPath();
+ctx.arc(200,150,100,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#964b00";
+ctx.fill();
+
+//oczy
+ctx.beginPath();
+ctx.arc(200,110,25,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#fffff0";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(250,110,25,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#fffff0";
+ctx.fill();
+
+//kolka w oczach
+ctx.beginPath();
+ctx.arc(210,110,15,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#00ffff";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(260,110,15,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#00ffff";
+ctx.fill();
+
+//armata 
+ctx.beginPath();
+ctx.arc(370,150,70,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#964b00";
+ctx.fill();
+
+//mniejsze w armacie
+ctx.beginPath();
+ctx.arc(370,150,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#6c3c0c";
+ctx.fill();
+
+
+//curvy linia od lewej czesci glowy w lewo
+ctx.beginPath();
+ctx.moveTo(117, 95);
+ctx.bezierCurveTo(110, 60, 100, 70, 35, 95);
+ctx.stroke(); 
+
+ctx.fillStyle = "#c49162";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(117, 95);
+ctx.bezierCurveTo(110, 110, 100, 120, 35, 95);
+ctx.stroke(); 
+
+ctx.fillStyle = "#c49162";
+ctx.fill();
+
+//Gracjan- gorna czesc
+
+//Oliwier - dolna czesc
+
+//1 linia ty kurwo 
+ctx.beginPath();
+ctx.moveTo(180, 250);
+ctx.quadraticCurveTo(160, 350, canvas.width-300, canvas.height-100);
+ctx.stroke();
+
+ctx.fillStyle = "#964b00";
+ctx.fill();
+
+//2 linia ty szmato
+ctx.beginPath();
+ctx.moveTo(220, 250);
+ctx.quadraticCurveTo(190, 350, canvas.width-270, canvas.height-100);
+ctx.stroke();
+
+ctx.fillStyle = "#964b00";
+ctx.fill();
+
+
+//liscie 
+ctx.beginPath();
+ctx.arc(180,435,40,0,2*Math.PI);
+ctx.stroke();
+
+
+ctx.fillStyle = "#c49162";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(260,430,40,0,2*Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = "#c49162";
+ctx.fill();
+
+
+
+
+</script> 
+
+
+
+
+</body></html>
